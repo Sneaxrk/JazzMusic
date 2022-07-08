@@ -16,6 +16,22 @@ module.exports = {
     description: "Shows music Stats, like amount of Commands and played Songs etc.",
     run: async (client, message, args, guildData, player, prefix) => {
         try {
+       const row = new MessageActionRow()
+           .addComponents(
+        new MessageButton()
+    .setLabel("Invite Me")
+    .setStyle("LINK")
+    .setURL(`https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=applications.commands%20bot`),
+    new MessageButton()
+    .setLabel("Support Server")
+    .setStyle("LINK")
+    .setURL("https://discord.gg/fdasM6ez3u"),
+    new MessageButton()
+    .setLabel("Vote Me")
+    .setStyle("LINK")
+    .setURL("https://top.gg/bot/991404600366211092/vote")
+			);
+
             let totalSeconds = message.client.uptime / 1000;
             let days = Math.floor(totalSeconds / 86400);
             totalSeconds %= 86400;
