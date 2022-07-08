@@ -64,7 +64,7 @@ module.exports = {
                 { name: `<a:playing:994976942740742284> • **Music**`, value: `\`\`\`Playing Music In ${connectedchannelsamount} Servers\`\`\``, inline: true },                
             )
              .addField("<a:Developer:994974666395492474> • **Developer**", "[- PEACE#1111](https://discord.com/users/979399328827338814), [🥀ᛜ`.⌁𝐍σт𝐘συя𝐇αcкєя.︵♡⊹₊#7331 ](https://discord.com/users/974984890959425566) and Special thanks all supporters")
-            message.channel.send({embeds: [statsEmbed]});
+            message.channel.send({embeds: [statsEmbed], components: [row]})
         } catch (e) {
             console.log(String(e.stack).bgRed)
 			const emesdf = new MessageEmbed()
