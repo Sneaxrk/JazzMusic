@@ -39,9 +39,10 @@ module.exports = async (client, message) => {
         not_allowed = true;
         if(matchedPrefix.includes(client.user.id)){
             const fff = new Discord.MessageEmbed()
-            .setAuthor(client.user.username, client.user.displayAvatarURL({dynamic: true}), config.links.opmusicinv)
-            .setDescription(`**Prefix:** \`${prefix}\`\n**Developer:** \`🥀~ 𓂃˚𝐇𝚊𝐜𝚔𝐞𝚛. 🥂 , - PEACE\`\n**Servers: \`${client.guilds.cache.size}\`**\n\n**Support Server:** If You Need Help Related Me Join My **[Support Server](${config.links.server})**\n**Invite:** Invite Me By Clicking **[Here](${config.links.opmusicinv})**\n`)
-            .setColor(ee.color)
+                .setAuthor(client.user.username, client.user.displayAvatarURL({dynamic: true}), config.links.opmusicinv)
+                .setDescription(`My prefix for this server is ${prefix}
+Want to see all the commands available? Use ${prefix}help`)
+                .setColor(message.guild.me.displayHexColor !== '#000000' ? message.guild.me.displayHexColor : "#ff0000")  
             return message.channel.send({embeds: [fff]});
         }
         return;
