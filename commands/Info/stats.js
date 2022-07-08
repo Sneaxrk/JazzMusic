@@ -38,15 +38,15 @@ module.exports = {
             .setDescription(`[Invite](${config.links.opmusicinv}) ● [Support Server](${config.links.server})`)
             .setFooter(ee.footertext, ee.footericon)
             .addFields (
-                { name: `<:jk_members:949868611437207572> • **Servers**`, value: `\`\`\`Total: ${client.guilds.cache.size} servers\`\`\``, inline: true },
-                { name: `<:user:987202051001974824> • **Users**`, value: `\`\`\`Total: ${client.guilds.cache.reduce((acc, guild) => acc + guild.memberCount, 0)} users\`\`\``, inline: true },
-                { name: `<:CPU:988625311732236319> • **Node Version**`, value: `\`\`\`v${process.versions.node}\`\`\``, inline: true },
-                { name: `<:discordjs:988612114354675783> • **Discord.js**`, value: `\`\`\`v13.1.0\`\`\``, inline: true },
-                { name: `<:uptimer:988611217671209042> • **Uptime**`, value: `\`\`\`${uptime}\`\`\``, inline: true },
-                { name: `<a:Duration:950973648087416882> • **Ping**`, value: `\`\`\`${client.ws.ping}ms\`\`\``, inline: true },
-                { name: `<a:requester:960295168664301568> • **Music**`, value: `\`\`\`Playing Music In ${connectedchannelsamount} Servers\`\`\``, inline: true },                
+                { name: `<a:discord:994984350812733612> • **Servers**`, value: `\`\`\`Total: ${client.guilds.cache.size} servers\`\`\``, inline: true },
+                { name: `<:users:994983285065253015> • **Users**`, value: `\`\`\`Total: ${client.guilds.cache.reduce((acc, guild) => acc + guild.memberCount, 0)} users\`\`\``, inline: true },
+                { name: `<:CPU:995101466580746251> • **Node Version**`, value: `\`\`\`v${process.versions.node}\`\`\``, inline: true },
+                { name: `<:djs:994982229103087766> • **Discord.js**`, value: `\`\`\`v13.1.0\`\`\``, inline: true },
+                { name: `<a:Clock00:994995301091917965> • **Uptime**`, value: `\`\`\`${uptime}\`\`\``, inline: true },
+                { name: `<a:botping:994982895682863176> • **Ping**`, value: `\`\`\`${client.ws.ping}ms\`\`\``, inline: true },
+                { name: `<a:playing:994976942740742284> • **Music**`, value: `\`\`\`Playing Music In ${connectedchannelsamount} Servers\`\`\``, inline: true },                
             )
-             .addField("<a:Valid_Code_Developer:949687780383031336> • **Developer**", "[- PEACE#1111](https://discord.com/users/979399328827338814), [🥀ᛜ`.⌁𝐍σт𝐘συя𝐇αcкєя.︵♡⊹₊#7331 ](https://discord.com/users/974984890959425566) and Special thanks all supporters")
+             .addField("<a:Developer:994974666395492474> • **Developer**", "[- PEACE#1111](https://discord.com/users/979399328827338814), [🥀ᛜ`.⌁𝐍σт𝐘συя𝐇αcкєя.︵♡⊹₊#7331 ](https://discord.com/users/974984890959425566) and Special thanks all supporters")
             message.channel.send({embeds: [statsEmbed]});
         } catch (e) {
             console.log(String(e.stack).bgRed)
