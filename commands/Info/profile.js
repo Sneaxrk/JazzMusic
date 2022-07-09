@@ -82,7 +82,7 @@ else if(badges === "") badges = "`No Badge Available`";
 //.setTitle(`${user.username}'s Profile`)
 .setColor("#00ffff")
 .setDescription(`
-**__BADGES__** <a:premium:960303944440115200>
+**__BADGES__** <a:Badges:995124766195335218>
 
 ${badges ? badges : "`No Badge Available`"}`)
 //.setTimestamp();
