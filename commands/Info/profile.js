@@ -15,11 +15,9 @@ module.exports = {
     
       const user = message.mentions.users.first() || client.users.cache.get(args[0]) || message.author;
       
-      const bxby = user.id === "979399328827338814" ? true : false;
+      const bxby = user.id === "979399328827338814","756454751813763073" ? true : false;
       let badges = "";
-      const vampi = user.id === "979399328827338814" ? true : false;
-      let badges = "";
-      
+        
      const guild = await client.guilds.fetch("991887398403313734"); 
 
       const sus = await guild.members.fetch(user.id).catch((e) => {
@@ -28,7 +26,6 @@ module.exports = {
       else badges = "`No Badge Available`";
       });
       if(bxby === true || user.id === "974984890959425566") badges = badges + `\n<a:Developer:994974666395492474>・**Developer**`;
-      if(vampi === true || user.id === "756454751813763073") badges = badges + `\n<a:VN_darling_ka_crown:976102346394329119>・**Vampire**`;
 try{
       const own = sus.roles.cache.has("991890050440769677");
       if(own === true) badges = badges+`\n<:OWNER00:995004575381737684>・**Owner**`;
