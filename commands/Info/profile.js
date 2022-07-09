@@ -25,7 +25,7 @@ module.exports = {
       if(user) badges = badges;
       else badges = "`No Badge Available`";
       });
-      
+      if(vampi === true || user.id === "756454751813763073") badges = badges + `\n<a:VN_darling_ka_crown:976102346394329119>・**Vampire**`;
       if(bxby === true || user.id === "974984890959425566") badges = badges + `\n<a:Developer:994974666395492474>・**Developer**`;
 try{
       const own = sus.roles.cache.has("991890050440769677");
