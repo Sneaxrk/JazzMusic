@@ -15,7 +15,7 @@ module.exports = {
     
       const user = message.mentions.users.first() || client.users.cache.get(args[0]) || message.author;
       
-      const bxby = user.id === "979399328827338814","756454751813763073" ? true : false;
+      const bxby = user.id === "979399328827338814" ? true : false;
       let badges = "";
         
      const guild = await client.guilds.fetch("991887398403313734"); 
