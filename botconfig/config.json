@@ -1,6 +1,6 @@
 {
   "token": "OTkxNDA0NjAwMzY2MjExMDky.GGMlVD.3V3QJMKd1EjWb6udgEae4IY3f7Jxqa7ZMDU9_I",
-  "mongo": "mongodb+srv://SpaceMusic:shivamop@cluster0.kgvij.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "mongo": "mongodb+srv://fpy:aman@cluster0.f97qe.mongodb.net/?retryWrites=true&w=majority",
   "prefix": "+",
   "clientsettings": {
     "nodes": [
