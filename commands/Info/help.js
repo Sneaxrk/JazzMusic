@@ -23,6 +23,7 @@ module.exports = {
     new MessageButton()
     .setLabel("Support Server")
     .setStyle("LINK")
+    .setEmoji(`994973299840921650`)
     .setURL("https://discord.gg/fdasM6ez3u"),
     new MessageButton()
     .setLabel("Vote Me")
