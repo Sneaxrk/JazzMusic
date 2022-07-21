@@ -24,8 +24,9 @@ module.exports = {
     .setEmoji(`994973405730324500`)
     .setURL(`https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=applications.commands%20bot`),
     new MessageButton()
-    .setLabel("Support Server")
+    .setLabel("Support")
     .setStyle("LINK")
+    .setEmoji(`994973299840921650`)
     .setURL("https://discord.gg/fdasM6ez3u"),
     new MessageButton()
     .setLabel("Vote Me")
