@@ -16,17 +16,17 @@ module.exports = {
           const row = new MessageActionRow()
            .addComponents(
         new MessageButton()
-    .setLabel("Invite Me")
+    .setLabel("Invite")
     .setStyle("LINK")
     .setEmoji(`994973405730324500`)
     .setURL(`https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=applications.commands%20bot`),
     new MessageButton()
-    .setLabel("Support Server")
+    .setLabel("Support")
     .setStyle("LINK")
     .setEmoji(`994973299840921650`)
     .setURL("https://discord.gg/fdasM6ez3u"),
     new MessageButton()
-    .setLabel("Vote Me")
+    .setLabel("Vote")
     .setStyle("LINK")
     .setEmoji(`994973001894338670`)
     .setURL("https://top.gg/bot/991404600366211092/vote")
