@@ -29,7 +29,7 @@ module.exports = {
 			);
 
           const mainPage = new MessageEmbed()
-            .setTitle("Invite Links For Serums!")
+            .setTitle("Invite Links For Jazz Development")
              .setColor(message.guild.me.displayHexColor !== '#000000' ? message.guild.me.displayHexColor : "#ff0000")
             .addField('Fpy', `[Invite Me](https://discord.com/api/oauth2/authorize?client_id=991404600366211092&permissions=8&scope=bot)`, true)
             .addField('Jazz Music', `[Invite Me](https://discord.com/api/oauth2/authorize?client_id=998956313969164339&permissions=8&scope=bot)`, true)
