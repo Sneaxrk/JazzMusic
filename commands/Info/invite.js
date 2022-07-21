@@ -17,14 +17,17 @@ module.exports = {
         new MessageButton()
     .setLabel("Fpy")
     .setStyle("LINK")
+    .setEmoji(`994973405730324500`)
     .setURL(`https://discord.com/api/oauth2/authorize?client_id=991404600366211092&permissions=8&scope=bot`),
     new MessageButton()
     .setLabel("Jazz Music")
     .setStyle("LINK")
+    .setEmoji(`994973405730324500`)
     .setURL(`https://discord.com/api/oauth2/authorize?client_id=998956313969164339&permissions=8&scope=bot`),
     new MessageButton()
     .setLabel("Support Server")
     .setStyle("LINK")
+    .setEmoji(`994973299840921650`)
     .setURL("https://discord.gg/fdasM6ez3u")
 			);
 
