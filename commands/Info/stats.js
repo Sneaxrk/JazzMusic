@@ -29,8 +29,9 @@ module.exports = {
     .setEmoji(`994973299840921650`)
     .setURL("https://discord.gg/fdasM6ez3u"),
     new MessageButton()
-    .setLabel("Vote Me")
+    .setLabel("Vote")
     .setStyle("LINK")
+    .setEmoji(`994973001894338670`)
     .setURL("https://top.gg/bot/991404600366211092/vote")
 			);
 
