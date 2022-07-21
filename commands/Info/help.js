@@ -28,6 +28,7 @@ module.exports = {
     new MessageButton()
     .setLabel("Vote Me")
     .setStyle("LINK")
+    .setEmoji(`994973001894338670`)
     .setURL("https://top.gg/bot/991404600366211092/vote")
 			);
    const mainmenu = new MessageEmbed()
