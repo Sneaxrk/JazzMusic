@@ -9,7 +9,7 @@ module.exports = {
     usage: "",
     permission: [],
     owner: false,
-   execute: async (message, args, client, prefix) => {
+   run: async (client, message, args, guildData, player, prefix) => {
          
          
     const row = new MessageActionRow()
