@@ -30,7 +30,7 @@ module.exports = {
 
           const mainPage = new MessageEmbed()
             .setTitle("Invite Links For Serums!")
-             .setColor(message.guild.me.displayHexColor !== '#000000' ? message.guild.me.displayHexColor : client.config.embedColor)
+             .setColor(message.guild.me.displayHexColor !== '#000000' ? message.guild.me.displayHexColor : "#ff0000")
             .addField('Fpy', `[Invite Me](https://discord.com/api/oauth2/authorize?client_id=991404600366211092&permissions=8&scope=bot)`, true)
             .addField('Jazz Music', `[Invite Me](https://discord.com/api/oauth2/authorize?client_id=998956313969164339&permissions=8&scope=bot)`, true)
             .addField('Support Server', `[Click Here](https://discord.gg/fdasM6ez3u)`)
