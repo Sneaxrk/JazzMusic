@@ -18,6 +18,7 @@ module.exports = {
         new MessageButton()
     .setLabel("Invite Me")
     .setStyle("LINK")
+    .setEmoji(`994973405730324500`)
     .setURL(`https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=applications.commands%20bot`),
     new MessageButton()
     .setLabel("Support Server")
