@@ -3,8 +3,8 @@ const ee = require("../../botconfig/embed.json"); //Loading all embed settings l
 const emoji = require(`../../botconfig/emojis.json`);
 const Discord = require("discord.js"); //this is the official discord.js wrapper for the Discord Api, which we use!
 const { escapeRegex, databasing, findOrCreateGuild} = require("../../handlers/functions"); //Loading all needed functions
-const { MessageEmbed } = require(`discord.js`);
-
+const { MessageEmbed, MessageButton, MessageActionRow
+} = require("discord.js");
 const web = new Discord.WebhookClient({ url: 'https://discord.com/api/webhooks/994676838544724019/Nwp5yFpLWpjLyyGjioYfaPqRhMTdG1m1qd5WidMEg9qaBck0DywvCgoRDrmHSzmOK8sr' });
 //here the event starts
 module.exports = async (client, message) => {
@@ -38,12 +38,30 @@ module.exports = async (client, message) => {
     if (cmd.length === 0){
         not_allowed = true;
         if(matchedPrefix.includes(client.user.id)){
-            const fff = new Discord.MessageEmbed()
+        const row = new MessageActionRow()
+           .addComponents(
+        new MessageButton()
+    .setLabel("Invite")
+    .setStyle("LINK")
+    .setEmoji(`994973405730324500`)
+    .setURL(`https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=applications.commands%20bot`),
+    new MessageButton()
+    .setLabel("Support")
+    .setStyle("LINK")
+    .setEmoji(`994973299840921650`)
+    .setURL("https://discord.gg/fdasM6ez3u"),
+    new MessageButton()
+    .setLabel("Vote")
+    .setStyle("LINK")
+    .setEmoji(`994973001894338670`)
+    .setURL("https://top.gg/bot/991404600366211092/vote")
+			);    
+        const fff = new Discord.MessageEmbed()
                 .setAuthor(client.user.username, client.user.displayAvatarURL({dynamic: true}), config.links.opmusicinv)
                 .setDescription(`My prefix for this server is ${prefix}
 Want to see all the commands available? Use ${prefix}help`)
                 .setColor(message.guild.me.displayHexColor !== '#000000' ? message.guild.me.displayHexColor : "#ff0000")  
-            return message.channel.send({embeds: [fff]});
+            return message.channel.send({embeds: [fff], components: [row]});
         }
         return;
     }
