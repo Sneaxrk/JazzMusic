@@ -3,38 +3,88 @@
   "mongo": "mongodb+srv://jamura:yuvrajisking@cluster0.bd33f.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
   "prefix": "+",
   "clientsettings": {
-    "nodes": [
-
-       {
-"host": "disbotlistlavalink.ml",
-"password": "LAVA",
-"port": 443,
-"identifier": "lavalink 1",     
-"secure": true
-    },
+        "nodes": [
+                     {
+     "host": "defr2.forcehost.net",
+      "port": 25633, 
+      "password": "youshallnotpass"
+        },
+            {
+     "host": "n2.luxxy.tech",
+      "port": 4079, 
+      "password": "youshallnotpass"
+        },
+            {
+     "host": "n2.luxxy.tech",
+      "port": 4052, 
+      "password": "musifyop"
+        },
+            {
+     "host": "lava.atbmusic.ml",
+      "port": 25589, 
+      "password": "ATBMusics"
+        },
+                {
+     "host": "musify-lavalink.musify.repl.co",
+      "port": 443, 
+      "password": "musifyop",
+      "secure": true
+        },
+          {
+     "host": "lavalink.islantay.tk",
+      "port": 8880, 
+      "password": "waifufufufu"
+        },
+             {
+     "host": "lavalink.scpcl.site",
+      "port": 443, 
+      "password": "lvserver",
+                 "Secure" : true
+        },
     {
-"host": "lavalink.gangasagarcom.repl.co",
-"password": "LAVA",
-"port": 443,
-"identifier": "lavalink 2",     
-"secure": true
+        "host": "disbotlistlavalink.ml",
+        "password": "LAVA",
+        "port": 443,
+        "identifier": "LavaLink 1",
+        "secure": true
+      },
+      {
+        "host": "node03.lavalink.eu",
+        "password": "Raccoon",
+        "port": 2333,
+        "security": true,
+        "identifier": "LavaLink 2"
+      },
+      {
+        "host": "giveawaybot.cf",
+        "port": 443,
+        "password": "Blacky#6618",
+        "identifier": "Lavalink 3",
+        "secure": true
 
-    },
-    {
-      "host": "lavalink-2.gangasagarcom.repl.co",
-"password": "LAVA",
-"port": 443,
-"identifier": "lavalink 3",     
-"secure": true
-
-     },
-     {
-      "host": "lavalink.brblacky1.repl.co",
-"password": "LAVA",
-"port": 443,
-"identifier": "lavalink 4",     
-"secure": true 
-     }
+      },
+      {
+   "host": "lavalink.marlegahelp.repl.co",
+        "port": 443,
+       "password": "byee",
+      "retryDelay": 3000,
+      "": "lavalink",
+      "secure": true
+      },
+      {
+        "host": "lavalink-2.gangasagarcom.repl.co",
+        "port": 443,
+        "password": "LAVA",
+        "identifier": "Lavalink 5",
+        "secure": true
+      },
+      {
+        "host": "lavalink-2.gangasagarcom.repl.co",
+        "password": "LAVA",
+        "port": 443,
+        "identifier": "lavalink 4",     
+        "secure": true
+      } 
        
      ]
 },
