@@ -1,0 +1,75 @@
+{
+  "token": "OTk4OTU2MzEzOTY5MTY0MzM5.G01SQ3.KukZrEA4z9qtmU2OsBhxin1vkirYX7kBWPWSoQ",
+  "mongo": "mongodb+srv://SpaceMusic:shivamop@cluster0.kgvij.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "prefix": "+",
+  "clientsettings": {
+    "nodes": [
+
+       {
+"host": "disbotlistlavalink.ml",
+"password": "LAVA",
+"port": 443,
+"identifier": "lavalink 1",     
+"secure": true
+    },
+    {
+"host": "lavalink.gangasagarcom.repl.co",
+"password": "LAVA",
+"port": 443,
+"identifier": "lavalink 2",     
+"secure": true
+
+    },
+    {
+      "host": "lavalink-2.gangasagarcom.repl.co",
+"password": "LAVA",
+"port": 443,
+"identifier": "lavalink 3",     
+"secure": true
+
+     },
+     {
+      "host": "lavalink.brblacky1.repl.co",
+"password": "LAVA",
+"port": 443,
+"identifier": "lavalink 4",     
+"secure": true 
+     }
+       
+     ]
+},
+  "spotify": {
+    "clientSecret": "bdbfea29444c451d95c03581480e34ae",
+    "clientID": "be8b7b2b80c5464bb85bb30bb632e236"
+  },
+  "settings": {
+    "COMMENT": "time_delay 0 === insta leave",
+    "progressbar_emoji": ":<:s_progress:866946355891929098>",
+    "leaveOnEmpty_Channel": {
+      "enabled": false,
+      "time_delay": 180000
+    },
+    "LeaveOnEmpty_Queue": {
+      "enabled": false,
+      "time_delay": 180000
+    },
+    "selfDeaf": true,
+    "serverDeaf": true
+  },
+  "links": {
+    "server": "https://discord.gg/KpvpQpFznG",
+    "opbotinv": "https://discord.com/oauth2/authorize?client_id=998956313969164339&permissions=8&scope=applications.commands%20bot",
+    "opmusicinv": "https://discord.com/oauth2/authorize?client_id=998956313969164339&permissions=8&scope=applications.commands%20bot",
+    "opmusic2inv": "https://discord.com/oauth2/authorize?client_id=998956313969164339&permissions=8&scope=applications.commands%20bot",
+    "opmusic3inv": "https://discord.com/oauth2/authorize?client_id=998956313969164339&permissions=8&scope=applications.commands%20bot",
+    "opmusicvote": "https://discord.gg/fdasM6ez3u"
+  },
+  "ownerIDS": [
+    "974984890959425566",
+    "969192890205110313",
+    "975012142640169020",
+    "979399328827338814",
+    "657735748954357760",
+      "967357218401947649"
+  ]
+}
