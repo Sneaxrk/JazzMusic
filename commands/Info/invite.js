@@ -7,7 +7,7 @@ const ee = require("../../botconfig/embed.json");
 const emoji = require(`../../botconfig/emojis.json`);
 module.exports = {
     name: "invite",
-    category: "Information",
+    category: "Info",
     aliases: [ "inv" ],
     description: "",
     args: false,
