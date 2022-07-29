@@ -18,7 +18,6 @@ const embed = new MessageEmbed()
          .addField(`**Command Category**`, `<a:DJ:994982268298874972> \`:\` **Music**\n<:m_filters:994981649936826378> \`:\` **Filter**\n<a:ace_info:994977671287164968> \`:\` **Info**\n<:playlist:994983818693971988> \`:\` **Playlist**\n<a:settings:994978098997104670> \`:\` **Settings**\n\n\`Choose A Category To Get All Commands List\``)
          .setThumbnail(message.guild.iconURL({dynamic: true}))
          .setTimestamp() 
-         .setFooter(ee.footertext, ee.footericon)
          .setColor(message.guild.me.displayHexColor !== '#000000' ? message.guild.me.displayHexColor : "#ff0000") 
     
     const row = new MessageActionRow()
