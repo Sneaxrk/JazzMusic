@@ -32,7 +32,7 @@ const client = new Discord.Client({
     presence: {
         status: "online",
         activities: [{
-        name: "+play | @Fpy",
+        name: "+play | Jazz Development",
         type: "WATCHING"
         }]
     },
