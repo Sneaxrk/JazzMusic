@@ -2,7 +2,7 @@ const { MessageEmbed, MessageActionRow, MessageSelectMenu } = require('discord.j
 
 module.exports = {
   name: 'help',
-  category: 'Information',
+  category: 'Info',
   aliases: ['h'],
   description: 'Return all commands, or one specific command',
   args: false,
