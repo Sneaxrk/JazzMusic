@@ -31,19 +31,19 @@ const embed = new MessageEmbed()
             {
               label: 'Music',
               description: '・ Shows Music Commands',
-              value: 'one',
+              value: 'music',
               emoji: '<a:music:998579209255522344>',
             },
             {
               label: ' Filter',
               description: '・ Shows Filter Commands',
-              value: 'two',
+              value: 'filter',
               emoji: '<:m_filters:994981649936826378>',
             },
             {
               label: ' Info',
               description: '・ Shows Info Commands',
-              value: 'three',
+              value: 'info',
               emoji: '<a:ace_info:994977671287164968>',
             },
             {
