@@ -13,9 +13,9 @@ module.exports = {
   run: async (client, message, args, guildData, player, prefix) => {
 const embed = new MessageEmbed()
                  .setAuthor(client.user.username, client.user.displayAvatarURL(), "https://discord.gg/M2yU2Nzydj")
-         .setDescription(`My current prefix in this server is \`${prefix}\` Type \`${prefix}help\` to get information about a specific command.`)
-         .addField(`**Links**`, `**[Invite Me](https://discord.com/api/oauth2/authorize?client_id=998956313969164339&permissions=8&scope=bot),[Support Server](https://discord.gg/fdasM6ez3u)**`)
-         .addField(`**Command Category**`, `<a:DJ:994982268298874972> \`:\` **Music**\n<:m_filters:994981649936826378> \`:\` **Filter**\n<a:ace_info:994977671287164968> \`:\` **Info**\n<:playlist:994983818693971988> \`:\` **Playlist**\n<a:settings:994978098997104670> \`:\` **Settings**\n\n\`Choose A Category To Get All Commands List\``)
+         .setDescription(`Jazz Is A Discord Music Bot Made To Provide You With Many Breathtaking Features And Quality Music\nMy current prefix in this server is \`${prefix}\` Type \`${prefix}help\` to get information about a specific command.`)
+         .addField(`**Links**`, `**[Invite Me](https://discord.com/api/oauth2/authorize?client_id=998956313969164339&permissions=8&scope=bot)\n[Support Server](https://discord.gg/fdasM6ez3u)**`)
+         .addField(`**Command Category :**`, `<a:music:998579209255522344> \`:\` **Music**\n<:m_filters:994981649936826378> \`:\` **Filter**\n<a:ace_info:994977671287164968> \`:\` **Info**\n<:playlist:994983818693971988> \`:\` **Playlist**\n<a:settings:994978098997104670> \`:\` **Settings**\n\n\`Choose A Category To Get All Commands List\``)
          .setThumbnail(message.guild.iconURL({dynamic: true}))
          .setTimestamp() 
          .setColor(message.guild.me.displayHexColor !== '#000000' ? message.guild.me.displayHexColor : "#ff0000") 
@@ -26,7 +26,7 @@ const embed = new MessageEmbed()
           .setCustomId('helpop')
           .setMinValues(1)
           .setMaxValues(1)
-          .setPlaceholder('Jazz Music Help')
+          .setPlaceholder('Jazz Is Love')
           .addOptions([
             {
               label: 'Music',
