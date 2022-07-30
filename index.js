@@ -355,7 +355,7 @@ client.on('guildCreate', async (guild) => {
     guildData.announce = true;
     guildData.save();
   
-    const texts = "Hi, This Is Fyp If You Need Support Related Me Join My Support Server. Support Server Link Is Here https://discord.gg/fdasM6ez3u"
+    const texts = "Hi, This Is jazz If You Need Support Related Me Join My Support Server. Support Server Link Is Here https://discord.gg/fdasM6ez3u"
     const guildembed = new Discord.MessageEmbed()
     .setTitle("Thank you for adding me in your server! ❤️")
     .setColor("#303037")
