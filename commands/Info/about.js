@@ -23,7 +23,7 @@ let aboutembed = new MessageEmbed()
 .setDescription(`
 **Welcome To Jazz, A Premium Quality Discord Music Bot. My Work Is To Provide Best Quality Music For The Best Discord Servers, I am developed in JavaScript.**
 
-<a:dev:998579670326988852> **Developers** : [🥀ᛜ.⌁𝐍σт𝐘συя𝐇αcкєя.︵♡⊹₊](https://discord.com/users/974984890959425566) [𓆩ζ͜͡𝐓he𝐑eal𝐏ennywise](https://discord.com/users/975012142640169020) [- SIGN](https://discord.com/users/979399328827338814)
+<a:dev:998579670326988852> **Developers** : [🥀𝐍σт𝐘συя𝐇αcкєя.︵♡⊹₊](https://discord.com/users/974984890959425566) [𓆩ζ͜͡𝐓he𝐑eal𝐏ennywise](https://discord.com/users/975012142640169020)\n [- SIGN](https://discord.com/users/979399328827338814)
 
 `)
 
