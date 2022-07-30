@@ -30,31 +30,37 @@ const embed = new MessageEmbed()
           .addOptions([
             {
               label: 'Music',
-              value: 'music',
-              emoji: '<a:DJ:994982268298874972>',
+              description: '・ Shows Music Commands',
+              value: 'one',
+              emoji: '<a:music:998579209255522344>',
             },
             {
               label: ' Filter',
-              value: 'filter',
+              description: '・ Shows Filter Commands',
+              value: 'two',
               emoji: '<:m_filters:994981649936826378>',
             },
             {
               label: ' Info',
-              value: 'info',
+              description: '・ Shows Info Commands',
+              value: 'three',
               emoji: '<a:ace_info:994977671287164968>',
             },
             {
               label: 'Settings',
+              description: '・ Shows Jazz Settings',
               value: 'settings',
               emoji: '<a:settings:994978098997104670>',
             },
             {
               label: 'Playlist',
+              description: '・ Shows Playlist Commands',
               value: 'playlist',
               emoji: '<:playlist:994983818693971988>',
             },
             {
               label: 'Home',
+              description: '・ Shows Home page',
               value: 'home',
               emoji: '<a:premium:994983609364664441>',
             }
@@ -72,31 +78,37 @@ const embed = new MessageEmbed()
           .addOptions([
             {
               label: 'Music',
-              value: 'music',
-              emoji: '<a:DJ:994982268298874972>',
+              description: '・ Shows Music Commands',
+              value: 'one',
+              emoji: '<a:music:998579209255522344>',
             },
             {
               label: ' Filter',
-              value: 'filter',
+              description: '・ Shows Filter Commands',
+              value: 'two',
               emoji: '<:m_filters:994981649936826378>',
             },
             {
               label: ' Info',
-              value: 'info',
+              description: '・ Shows Info Commands',
+              value: 'three',
               emoji: '<a:ace_info:994977671287164968>',
             },
             {
               label: 'Settings',
+              description: '・ Shows Jazz Settings',
               value: 'settings',
               emoji: '<a:settings:994978098997104670>',
             },
             {
               label: 'Playlist',
+              description: '・ Shows Playlist Commands',
               value: 'playlist',
               emoji: '<:playlist:994983818693971988>',
             },
             {
               label: 'Home',
+              description: '・ Shows Home page',
               value: 'home',
               emoji: '<a:premium:994983609364664441>',
             }
