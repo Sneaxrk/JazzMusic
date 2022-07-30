@@ -19,11 +19,11 @@ module.exports = {
 
 let aboutembed = new MessageEmbed()
         
-  .setAuthor(`Jazz Music`, client.user.displayAvatarURL())
+  .setAuthor(`Jazz`, client.user.displayAvatarURL())
 .setDescription(`
-**Welcome To Jazz Music, A Premium Quality Discord Music Bot. My Work Is To Provide Best Quality Music For The Best Discord Servers, I am developed in JavaScript.**
+**Welcome To Jazz, A Premium Quality Discord Music Bot. My Work Is To Provide Best Quality Music For The Best Discord Servers, I am developed in JavaScript.**
 
-<a:dev:998579670326988852> **Developers** : [HACKER](https://discord.com/users/974984890959425566) [PENNY](https://discord.com/users/975012142640169020) [- SIGN](https://discord.com/users/979399328827338814)
+<a:dev:998579670326988852> **Developers** : [🥀ᛜ.⌁𝐍σт𝐘συя𝐇αcкєя.︵♡⊹₊](https://discord.com/users/974984890959425566) [𓆩ζ͜͡𝐓he𝐑eal𝐏ennywise](https://discord.com/users/975012142640169020) [- SIGN](https://discord.com/users/979399328827338814)
 
 `)
 
@@ -38,7 +38,7 @@ const button1 = new MessageButton()
 //  .setEmoji(`896818548326952980`)
   const button2 = new MessageButton()
   .setLabel(`Support`)
-  .setURL("https://discord.gg/nukerzop")
+  .setURL("https://discord.gg/KpvpQpFznG")
   .setStyle(`LINK`)
         .setEmoji(`994973299840921650`)
 		  
