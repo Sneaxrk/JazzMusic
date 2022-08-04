@@ -27,12 +27,7 @@ module.exports = {
     .setLabel("Support")
     .setStyle("LINK")
     .setEmoji(`994973299840921650`)
-    .setURL("https://discord.gg/fdasM6ez3u"),
-    new MessageButton()
-    .setLabel("Vote")
-    .setStyle("LINK")
-    .setEmoji(`994973001894338670`)
-    .setURL("https://top.gg/bot/998956313969164339/vote")
+    .setURL("https://discord.gg/fdasM6ez3u")
 			);
             let totalSeconds = message.client.uptime / 1000;
             let days = Math.floor(totalSeconds / 86400);
