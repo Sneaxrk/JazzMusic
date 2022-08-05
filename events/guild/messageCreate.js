@@ -49,12 +49,7 @@ module.exports = async (client, message) => {
     .setLabel("Support")
     .setStyle("LINK")
     .setEmoji(`994973299840921650`)
-    .setURL("https://discord.gg/fdasM6ez3u"),
-    new MessageButton()
-    .setLabel("Vote")
-    .setStyle("LINK")
-    .setEmoji(`994973001894338670`)
-    .setURL("https://top.gg/bot/991404600366211092/vote")
+    .setURL("https://discord.gg/fdasM6ez3u")
 			);    
         const fff = new MessageEmbed()
         .setColor(message.guild.me.displayHexColor !== '#00000' ? message.guild.me.displayHexColor : "#00000")
